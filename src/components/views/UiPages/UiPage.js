@@ -1,7 +1,6 @@
 import "./UiPage.css";
 import React from 'react';
-import { FullPage, Slide } from "https://cdn.skypack.dev/react-full-page@0.1.12";
-
+import { FullPage, Slide } from 'react-full-page';
 export default class UiPage extends React.Component {
   render() {
     return (
