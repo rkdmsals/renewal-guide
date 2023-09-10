@@ -1,13 +1,25 @@
 import "./Home.css";
-function Home() {
+import { FullPage, Slide } from 'react-full-page';
+import React from 'react';
 
-    return (
-        <div className="home_Background">
-            <div>
-                홈페이지입니다
-            </div>
+export default class Home extends React.Component {
+    render() {
+      return (
+        <div className="Home_Background">
+            <FullPage controls>
+                <Slide>
+                    <div className="Home_inner">
+                        <div className="title">
+                            NEW 이화이언
+                        </div>
+                        <div className="coming soon">
+                            COMING SOON
+                        </div>
+                        <div className="clock"> </div>
+                    </div>
+                </Slide>
+            </FullPage>
         </div>
-    );
-}
-
-export default Home;
+      )
+    }
+  }
