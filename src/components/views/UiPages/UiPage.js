@@ -1,6 +1,9 @@
 import "./UiPage.css";
 import React from 'react';
 import { FullPage, Slide } from 'react-full-page';
+import EgardenPage from "../EgardenPage/EgardenPage";
+import ServicePage from "../ServicePage/ServicePage";
+
 export default class UiPage extends React.Component {
   render() {
     return (
@@ -18,7 +21,12 @@ export default class UiPage extends React.Component {
           </Slide>
           <Slide>
             <div className="section-common section-area3">
-              3
+              {/* <ServicePage /> */}
+            </div>
+          </Slide>
+          <Slide>
+            <div className="section-common section-area4">
+              <EgardenPage />
             </div>
           </Slide>
         </FullPage>
