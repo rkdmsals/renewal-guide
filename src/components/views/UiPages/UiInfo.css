@@ -59,15 +59,17 @@
 .uiInfo_ui_content_container {
   margin-top: 18px;
 }
+
+
+
+
+
 @media screen and (max-width: 480px) {
   .uiInfo_title {
     padding-top: 50px;
     font-size: 30px;
   }
-  .uiInfo_title_description {
-    font-size: 15px;
-    margin-top: 20px;
-  }
+
   .uiInfo_button_container {
     margin-top: 25px;
   }
@@ -78,4 +80,6 @@
   .uiInfo_button_container button {
     margin-right: 5px;
   }
+  
+
 }

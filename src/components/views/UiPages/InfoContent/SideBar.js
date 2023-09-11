@@ -12,7 +12,7 @@ function SideBar() {
     </div>
     <div className="img_wrap">
       <div className="ui_image">
-        <div id="sidebar_before" className="pic"><div className="img_text">Before</div></div>
+        <div id="sidebar_before" className="pic sidepic"><div className="img_text">Before</div></div>
       </div>
       <div className="ui_image">
         <div id="sidebar_after" className="pic"><div className="img_text">After</div></div>
