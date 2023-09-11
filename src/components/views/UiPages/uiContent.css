@@ -37,8 +37,13 @@
   box-shadow: 3px 3px 3px gray;
 }
 
+.sidepic{
+  width: 100px;
+  height: 200px;
+}
+
 .img_text{
-  width:20%;
+  width:50%;
   color: #7E4259;
   font-weight: bold;
   background-color: rgba(255,255,255,0.5);
@@ -66,14 +71,22 @@
 }
 
 #sidebar_before {
-  background-image: url(../../../../public/img/board_after.png);
+  background-image: url(../../../../public/img/sidebar_before.jpeg);
 
 }
 
 #sidebar_after {
-  background-image: url(../../../../public/img/board_after.png);
+  background-image: url(../../../../public/img/sidebar_after.jpeg);
 
 }
   @media screen and (max-width: 480px) {
+
+    .ui_content_label {
+      font-size: 13px;
+      line-height: 17px;
+      font: bold;
+      margin: 10px 0px 0px 10px;
+    }
+  
 
   }
