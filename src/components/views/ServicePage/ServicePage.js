@@ -47,7 +47,7 @@ function ServicePage() {
                             </div>
                         </div>
                         <div className="servicePage_left_content_3" onClick={handleDiv3Click}>
-                            <div className="ServicePage_left_content_title">
+                            <div className="servicePage_left_content_title">
                                 메인 화면에서 글 확인하기
                             </div>
                             <div className="servicePage_left_content_body">
