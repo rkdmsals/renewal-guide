@@ -22,20 +22,20 @@ function UiInfo() {
     console.log(e.target.name);
     if (e.target.name === "comment") {
       setIsClicked([true, false, false]);
-      setUiName("댓글");
+      setUiName("댓글 UI");
     } else if (e.target.name === "boardwrite") {
       setIsClicked([false, true, false]);
-      setUiName("글작성");
+      setUiName("글 작성 UI");
     } else {
       setIsClicked([false, false, true]);
-      setUiName("사이드바");
+      setUiName("사이드바 UI");
     }
   };
   return (
     <div className="uiInfo_container">
       <div className="uiInfo_inner_container">
         <div className="uiInfo_content_container">
-          <div className="uiInfo_title">새로운 디자인</div>
+          <div className="FullPageTitle">새로운 디자인</div>
 
           <div className="uiInfo_button_container">
             <div>
