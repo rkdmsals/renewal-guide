@@ -18,7 +18,7 @@ function ServicePage() {
     };
 
     return (
-        <div className="servicePage_background">
+        <div className="servicePage_container">
             <div className="servicePage_main_container">
                 <div className="servicePage_left_container">
                     <div className="servicePage_left_title">
