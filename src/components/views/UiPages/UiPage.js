@@ -3,6 +3,8 @@ import React from 'react';
 import { FullPage, Slide } from 'react-full-page';
 import EgardenPage from "../EgardenPage/EgardenPage";
 import ServicePage from "../ServicePage/ServicePage";
+import UiInfo from "./UiInfo";
+import Home from "../HomePage/Home";
 
 export default class UiPage extends React.Component {
   render() {
@@ -11,17 +13,17 @@ export default class UiPage extends React.Component {
         <FullPage controls controlsProps={{ className: "slide-navigation" }}>
           <Slide>
             <div className="section-common section-area1">
-              1
+              <Home />
             </div>
           </Slide>
           <Slide>
             <div className="section-common section-area2">
-              2
+              <UiInfo />
             </div>
           </Slide>
           <Slide>
             <div className="section-common section-area3">
-              {/* <ServicePage /> */}
+              <ServicePage />
             </div>
           </Slide>
           <Slide>
