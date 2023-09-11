@@ -53,9 +53,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  width: 100%;
-  margin: 15% 0px 0px 0px;
+  width: 10%;
+  float: right;
+  margin: 15% 0px 0px 90%;
 }
+
 
 .slide-navigation button:disabled {
   background-color: #5B0C2B;
