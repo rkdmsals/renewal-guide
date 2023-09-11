@@ -20,6 +20,7 @@
     width: 50%;
     height: auto;
     display: flex;
+    flex-direction: column;
     /* padding-left: 8%;
     padding-right: 2%; */
 }
@@ -30,6 +31,7 @@
 
 .servicePage_left_content {
     display: flex;
+    flex-direction: column;
 }
 
 .servicePage_right_container {
