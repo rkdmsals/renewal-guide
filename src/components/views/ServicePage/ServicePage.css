@@ -1,19 +1,13 @@
-.servicePage_Background {
-    background-image: url(../../../../public/img/vector_1st.png), url(../../../../public/img/Vector_2nd.png), url(../../../../public/img/vector_3rd.png);
-    background-size: 35vw, 22.9vw, 41.8vw;
-    /*background-size: 35vw 15.8vh, 22.9vw 39.7vh, 41.8vw 40.8vh;*/
-    background-position: 0px 0px, 77.1vw 0px, 0px 30.2vw;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+.servicePage_container {
+    width: 80%;
+    height: auto;
+    display: flex;
 }
 
 .servicePage_main_container {
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 15%;
-    padding-bottom: 5%;
 }
 
 .servicePage_left_container {
@@ -43,34 +37,14 @@
     justify-content: space-between;
 }
 
-.servicePage_left_content_1 {
-    border-radius: 20px;
-    /* 테두리를 둥글게 만듭니다. 값은 원하는 정도로 조절할 수 있습니다. */
-    opacity: 0.7;
-    /* 투명도를 설정합니다. 0.0부터 1.0까지의 값으로 설정할 수 있습니다. */
-    background-color: gray;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.servicePage_left_content_2 {
-    border-radius: 20px;
-    /* 테두리를 둥글게 만듭니다. 값은 원하는 정도로 조절할 수 있습니다. */
-    opacity: 0.7;
-    /* 투명도를 설정합니다. 0.0부터 1.0까지의 값으로 설정할 수 있습니다. */
-    background-color: gray;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
+.servicePage_left_content_1,
+.servicePage_left_content_2,
 .servicePage_left_content_3 {
     border-radius: 20px;
-    /* 테두리를 둥글게 만듭니다. 값은 원하는 정도로 조절할 수 있습니다. */
-    opacity: 0.7;
-    /* 투명도를 설정합니다. 0.0부터 1.0까지의 값으로 설정할 수 있습니다. */
-    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-top: 2%;
     margin-bottom: 2%;
+
 }
 
 .servicePage_left_content_title {
