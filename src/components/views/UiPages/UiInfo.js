@@ -35,7 +35,7 @@ function UiInfo() {
     <div className="uiInfo_container">
       <div className="uiInfo_inner_container">
         <div className="uiInfo_content_container">
-          <div className="FullPageTitle">새로운 디자인</div>
+          <div className="uiInfo_title">새로운 디자인</div>
 
           <div className="uiInfo_button_container">
             <div>
