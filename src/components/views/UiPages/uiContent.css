@@ -87,6 +87,45 @@
       font: bold;
       margin: 10px 0px 0px 10px;
     }
+
+    .img_wrap{
+      flex-direction: column;
+    }
+
+    .side_wrap{
+      flex-direction: row;
+    }
+
+    .ui_image{
+      margin-bottom: 30px;
+    }
+
+
+
+    .pic{
+      background-size: cover;
+      width: 240px;
+      height: 130px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px gray;
+    }
+    
+    .side_before_pic{
+      width: 50px;
+      height: 130px;
+      border-radius: 10px;
+    }
+    .side_after_pic{
+      width: 200px;
+      height: 130px;
+    }
+
+    .img_text{
+      width:70%;
+      font-size: 10px;
+      padding: 6px;
+      border-radius: 10px;
+    }
   
 
   }

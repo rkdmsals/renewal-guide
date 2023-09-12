@@ -12,10 +12,10 @@ function BoardWrite() {
       </div>
       <div className="img_wrap">
       <div className="ui_image">
-        <div id="board_before" className="pic"><div className="img_text">Before</div></div>
+        <div id="board_before" className="pic"><div className="img_text">알바하자</div></div>
       </div>
       <div className="ui_image">
-        <div id="board_after" className="pic"><div className="img_text">After</div></div>
+        <div id="board_after" className="pic"><div className="img_text">벼룩시장</div></div>
       </div>
     </div>
   </div>
