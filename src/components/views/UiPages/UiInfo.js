@@ -22,13 +22,13 @@ function UiInfo() {
     console.log(e.target.name);
     if (e.target.name === "comment") {
       setIsClicked([true, false, false]);
-      setUiName("댓글");
+      setUiName("댓글 UI");
     } else if (e.target.name === "boardwrite") {
       setIsClicked([false, true, false]);
-      setUiName("글작성");
+      setUiName("글 작성 UI");
     } else {
       setIsClicked([false, false, true]);
-      setUiName("사이드바");
+      setUiName("사이드바 UI");
     }
   };
   return (
@@ -46,7 +46,7 @@ function UiInfo() {
                 onClick={handleClickButton}
                 name="comment"
               >
-                댓글
+                댓글 UI
               </button>
               <button
                 className={`uiInfo_boardwrite_btn uiInfo_btn ${
@@ -55,7 +55,7 @@ function UiInfo() {
                 onClick={handleClickButton}
                 name="boardwrite"
               >
-                글작성
+                글 작성 UI
               </button>
               <button
                 className={`teamInfo_sidebar_btn uiInfo_btn ${
@@ -64,7 +64,7 @@ function UiInfo() {
                 onClick={handleClickButton}
                 name="sidebar"
               >
-                사이드바
+                사이드바 UI
               </button>
             </div>
             </div>
