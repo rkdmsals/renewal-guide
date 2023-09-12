@@ -18,12 +18,13 @@ function EgardenPage() {
                         벗들과 함께 원하는 주제에 대해 자유롭게 소통할 수 있는 E-화원, 기대해주세요!
                     </div>
                 </div>
-                <div className="EgardenPage_pictures">
+                
+            </div>
+            <div className="EgardenPage_pictures">
                     <div id="EgardenPage_pic1" className="EgardenPage_pic" />
                     <div id="EgardenPage_pic2" className="EgardenPage_pic" />
                     <div id="EgardenPage_pic3" className="EgardenPage_pic" />
                 </div>
-            </div>
 
         </div>
     )
