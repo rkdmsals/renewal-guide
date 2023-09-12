@@ -67,3 +67,18 @@ body {
   box-shadow: 0 0 0 3px #F3F3F3 inset;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 480px) {
+
+  .section-common {
+    background-image: url(../../../../public/img/mobile_background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+}
