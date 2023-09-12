@@ -10,12 +10,12 @@ function SideBar() {
 
       </div>
     </div>
-    <div className="img_wrap">
+    <div className="img_wrap side_wrap">
       <div className="ui_image">
-        <div id="sidebar_before" className="pic sidepic"><div className="img_text">Before</div></div>
+        <div id="sidebar_before" className="pic side_before_pic"><div className="img_text">Before</div></div>
       </div>
       <div className="ui_image">
-        <div id="sidebar_after" className="pic"><div className="img_text">After</div></div>
+        <div id="sidebar_after" className="pic side_after_pic"><div className="img_text">After</div></div>
       </div>
     </div>
   </div>
