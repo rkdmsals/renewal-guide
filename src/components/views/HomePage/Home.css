@@ -7,3 +7,61 @@
     width: 100vw;
     height: 100vh;
 }
+
+.Home_inner {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Home_title {
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 60;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #5B0C2B;
+}
+
+.Home_comingsoon {
+    padding-top: 5px;
+    font-weight: 800;
+    font-size: 80;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #5B0C2B;
+}
+
+.timer {
+    display: flex;
+    flex: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 100%;
+}
+
+.timer-box {
+    background-color: #D8D8D8;
+    border-radius: 5px;
+    justify-items: space-around;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.timer-time {
+    color: #5B0C2B;
+    font-weight: 700;
+    font-size: 70;
+    
+    text-align: center;
+}
+
+.timer-font {
+    color: #5B0C2B;
+    font-weight: 400;
+    font-size: 18;
+    letter-spacing: 7.5%;
+    text-align: center;
+}
