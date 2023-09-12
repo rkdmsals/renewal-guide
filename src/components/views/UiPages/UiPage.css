@@ -16,6 +16,7 @@ body {
   align-items: center;
   /* font-size: 36px; */
   background-attachment: fixed !important;
+  overflow: hidden;
 }
 
 
@@ -68,6 +69,10 @@ body {
   border-radius: 20px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
 
   .section-common {
@@ -79,6 +84,6 @@ body {
     width: 100vw;
     height: 100vh;
   }
-  
+
 
 }
