@@ -3,19 +3,19 @@ import React, { useState } from 'react';
 
 function EgardenPage() {
 
-    const [imageSrc, setImageSrc] = useState("../../../../public/img/Egarden_pic1.png");
+    const [imageSrc, setImageSrc] = useState("/img/Egarden_pic1.png");
 
     const handleClick1 = () => {
-        setImageSrc("../../../../public/img/Egarden_pic1.png");
-        console.log(1);
+        setImageSrc("/img/Egarden_pic1.png");
+        console.log({imageSrc});
     };
     const handleClick2 = () => {
-        setImageSrc("../../../../public/img/Egarden_pic2.png");
-        console.log(2);
+        setImageSrc("/img/Egarden_pic2.png");
+        console.log({imageSrc});
     };
     const handleClick3 = () => {
-        setImageSrc("../../../../public/img/Egarden_pic3.png");
-        console.log(3);
+        setImageSrc("/img/Egarden_pic3.png");
+        console.log({imageSrc});
     };
 
     return (
