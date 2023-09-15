@@ -12,7 +12,7 @@
     font-size: 60px;
     line-height: 50px;
     letter-spacing: 0.2px;
-    color: #5B0C2B;
+    color: var(--fullPage-text-color);
 }
 
 .Home_comingsoon {
@@ -21,17 +21,23 @@
     font-size: 80px;
     line-height: 60px;
     letter-spacing: 1px;
-    color: #5B0C2B;
+    color: var(--fullPage-text-color);
 }
 
 .timer {
     display: flex;
-    flex: column;
+    flex-direction: row;
     margin-top: 40px;
-    align-items: center;
-    justify-content: space-between;
     width: 90%;
     height: 100%;
+}
+
+.timer-container {
+    width: 48%;
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .timer-box {
@@ -44,14 +50,14 @@
 }
 
 .timer-time {
-    color: #5B0C2B;
+    color: var(--fullPage-text-color);
     font-weight: 700;
     font-size: 70px;
     text-align: center;
 }
 
 .timer-font {
-    color: #5B0C2B;
+    color: var(--fullPage-text-color);
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 7.5%;
@@ -69,13 +75,27 @@
     }
     
     .Home_comingsoon {
-        padding-top: 15px;
         font-weight: 800;
         font-size: 51px;
         line-height: 60px;
         letter-spacing: 1px;
-        word-spacing: 100px;
-        color: #5B0C2B;
+        word-spacing: 400px;
+        color: var(--fullPage-text-color);
+    }
+
+    .timer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .timer-container {
+        margin-top: 10px;
+    }
+
+    .timer-box {
+        width: 250px;
+        height: 130px;
     }
 
 }
