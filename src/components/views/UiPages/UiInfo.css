@@ -60,14 +60,19 @@
   margin-top: 18px;
 }
 
-
+@media screen and (max-width: 550px) {
+  .uiInfo_title {
+    padding-top: 50px;
+    font-size: 50px;
+  }
+}
 
 
 
 @media screen and (max-width: 480px) {
   .uiInfo_title {
-    padding-top: 50px;
-    font-size: 30px;
+    padding-top: 130px;
+    font-size: 43px;
   }
 
   .uiInfo_button_container {
@@ -82,4 +87,26 @@
   }
   
 
+}
+
+@media screen and (max-width: 375px) {
+  .uiInfo_title {
+    padding-top: 130px;
+    font-size: 43px;
+  }
+
+  .uiInfo_button_container {
+    margin-top: 23px;
+  }
+  .uiInfo_button_container button {
+    margin-right: 10px;
+    height: 25px;
+  }
+  .uiInfo_btn {
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+  .uiInfo_button_container button {
+    margin-right: 5px;
+  }
 }
