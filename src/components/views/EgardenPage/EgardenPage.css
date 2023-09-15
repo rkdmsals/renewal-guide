@@ -1,6 +1,9 @@
-.EgardenPage_inner {
+.EgardenPage_Background {
     width: 75%;
-    margin: 0 auto;
+}
+
+.EgardenPage_inner {
+    
     display: flex;
     flex-direction: column;
 }
@@ -12,7 +15,7 @@
 }
 
 .EgardenPage_text {
-    padding-top: 30px;
+    margin-top: 30px;
     font-weight: 450;
     font-size: 20px;
     letter-spacing: 1.5px;
@@ -20,8 +23,11 @@
     color: #5B0C2B;
 }
 
-.EgardenPage_pictures {
+.EgardenM_pictures {
+    display: none;
+}
 
+.EgardenPage_pictures {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
@@ -55,4 +61,49 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+    .Egarden_hidden {
+        display: none;
+    }
+
+    .EgardenPage_title {
+
+        font-size: 43px;
+        font-weight: 600;
+    }
+
+    .EgardenPage_text {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: rgba(255, 255, 255,0.53);
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .EgardenPage_pictures {
+        display: none;
+    }
+
+    .EgardenM_pictures {
+        display: block;
+    }
+
+    .EgardenM_buttons {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .Eb {
+        margin-right: 3px;
+        width: 25px;
+        background-color: rgba(255, 255, 255,0.3);
+        border-radius: 30px;
+    }
+
+    .EgardenM_pic {
+        width: 100%;
+        height: auto;
+    }
 }
