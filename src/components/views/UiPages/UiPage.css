@@ -101,7 +101,7 @@ body {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
   .slide-navigation {
       position: fixed;
@@ -115,5 +115,34 @@ body {
       margin: 0%;
   }
 
+  .slide-navigation button {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #5B0C2B;
+    margin: 30px 30px;
+    width: 5px;
+    height: 5px;
+
+  }
+
+  
+  .slide-navigation button:disabled {
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 0 0 2px #F3F3F3 inset;
+    border-radius: 10px;
+  }
+
+
+}
+
+@media screen and (max-width: 280px) {
+
+  .slide-navigation button:disabled {
+    padding: 7px;
+    width: 20px;
+
+  }
 
 }
