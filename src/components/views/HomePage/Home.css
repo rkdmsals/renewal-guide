@@ -59,3 +59,23 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 480px) {
+
+    .Home_title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0px;
+    }
+    
+    .Home_comingsoon {
+        padding-top: 15px;
+        font-weight: 800;
+        font-size: 51px;
+        line-height: 60px;
+        letter-spacing: 1px;
+        word-spacing: 100px;
+        color: #5B0C2B;
+    }
+
+}
