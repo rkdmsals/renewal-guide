@@ -20,27 +20,20 @@
     word-break: keep-all;
   }
 
-.img_wrap{
-  display: flex;
-  justify-content: space-around;
-}
 
 .ui_image{
-  display: flex;
-  justify-content: space-around;
+  float: left;
+  margin: 0 2.5%;
+  width: 45%;
 }
 .pic{
-  background-size: cover;
-  width: 450px;
-  height: 200px;
+	width : 100%;
+  padding-top : calc(300 / 1000 * 100%); /* calc (이미지 높이 ÷ 이미지 가로 × 100 %) */
+  background : center center / cover no-repeat;
   border-radius: 15px;
   box-shadow: 3px 3px 3px gray;
 }
 
-.sidepic{
-  width: 100px;
-  height: 200px;
-}
 
 .img_text{
   width:50%;
@@ -71,7 +64,7 @@
 }
 
 #sidebar_before {
-  background-image: url(../../../../public/img/sidebar_before.jpeg);
+  background-image: url(../../../../public/img/sidebar_before.png);
 
 }
 
@@ -79,7 +72,17 @@
   background-image: url(../../../../public/img/sidebar_after.jpeg);
 
 }
-  @media screen and (max-width: 480px) {
+
+@media screen and (max-width: 550px) {
+  .ui_image{
+    float: none;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width: 480px) {
 
     .ui_content_label {
       font-size: 13px;
@@ -88,36 +91,8 @@
       margin: 10px 0px 0px 10px;
     }
 
-    .img_wrap{
-      flex-direction: column;
-    }
-
     .side_wrap{
       flex-direction: row;
-    }
-
-    .ui_image{
-      margin-bottom: 30px;
-    }
-
-
-
-    .pic{
-      background-size: cover;
-      width: 240px;
-      height: 130px;
-      border-radius: 10px;
-      box-shadow: 3px 3px 3px gray;
-    }
-    
-    .side_before_pic{
-      width: 50px;
-      height: 130px;
-      border-radius: 10px;
-    }
-    .side_after_pic{
-      width: 200px;
-      height: 130px;
     }
 
     .img_text{
@@ -128,4 +103,13 @@
     }
   
 
+  }
+
+  @media screen and (max-width: 375px) {
+
+    .ui_content_label {
+      font-size: 11px;
+      line-height: 13px;
+      margin: 14px 6px 0px 10px;
+    }
   }
