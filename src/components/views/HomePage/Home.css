@@ -1,17 +1,13 @@
 
 .Home_Background {
-
-    width: 100vw;
-    height: 100vh;
-}
-
-.Home_inner {
     width: 75%;
-    margin: 0 auto;
+    display: flex;
 }
+
+
 
 .Home_title {
-    padding-top: 200px;
+
     font-weight: 700;
     font-size: 60px;
     line-height: 50px;
@@ -34,7 +30,7 @@
     margin-top: 40px;
     align-items: center;
     justify-content: space-between;
-    width: 550px;
+    width: 90%;
     height: 100%;
 }
 
@@ -62,3 +58,4 @@
     text-align: center;
     margin-top: 10px;
 }
+
