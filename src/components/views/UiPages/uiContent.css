@@ -80,6 +80,10 @@
     width: 100%;
     margin-bottom: 30px;
   }
+  .ui_content_label {
+    font-size: 15px;
+  }
+
 
 }
 @media screen and (max-width: 480px) {
@@ -109,6 +113,15 @@
 
     .ui_content_label {
       font-size: 11px;
+      line-height: 13px;
+      margin: 14px 6px 0px 16px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+
+    .ui_content_label {
+      font-size: 10px;
       line-height: 13px;
       margin: 14px 6px 0px 16px;
     }
