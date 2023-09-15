@@ -97,12 +97,6 @@ body {
 
   }
 
-
-}
-
-
-@media screen and (max-width: 450px) {
-
   .slide-navigation {
       position: fixed;
       display: flex;
