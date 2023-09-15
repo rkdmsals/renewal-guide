@@ -10,7 +10,7 @@ function Home() {
     let Interval = useRef();
 
     const StartTimer = () => {
-        const countdownDate = new Date('October 10, 2023 00:00:00').getTime();
+        const countdownDate = new Date('October 10 , 2023 00:00:00').getTime();
 
         Interval = setInterval(() => {
             const now = new Date().getTime();
@@ -50,8 +50,9 @@ function Home() {
                 <div className="Home_comingsoon">
                     COMING SOON
                 </div>
-                <div className="timer-container">
+                
                     <div className="timer">
+                    <div className="timer-container">
                         <div className="timer-box">
                             <div className="timer-time">{TimerDays}</div>
                             <div className="timer-font">DAYS</div>
@@ -62,6 +63,8 @@ function Home() {
                             <div className="timer-font">HOURS</div>
                         </div>
                         <span />
+                    </div>
+                    <div className="timer-container">
                         <div className="timer-box">
                             <div className="timer-time">{TimerMinutes}</div>
                             <div className="timer-font">MINUTES</div>
