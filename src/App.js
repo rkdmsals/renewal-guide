@@ -5,6 +5,7 @@ import Ui from "./components/views/UiPages/UiPage";
 import UiInfo from "./components/views/UiPages/UiInfo";
 import Egarden from "./components/views/EgardenPage/EgardenPage";
 import ServicePage from "./components/views/ServicePage/ServicePage";
+import "./components/utils/fontInfo.css";
 
 function App() {
   return (
