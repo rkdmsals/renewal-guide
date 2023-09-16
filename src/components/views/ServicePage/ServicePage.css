@@ -81,6 +81,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .servicePage_left_container {
+        width: 100%;
+    }
+
     .servicePage_left_title {
         font-size: 30px;
     }
@@ -91,6 +95,11 @@
 
     .servicePage_left_content_body {
         font-size: 15px;
+    }
+
+    .mobile-only {
+        display: none;
+        /* 모바일 화면에서 해당 div를 숨깁니다. */
     }
 
 }
