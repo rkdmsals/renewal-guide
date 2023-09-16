@@ -27,17 +27,20 @@
 .timer {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 90%;
     height: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .timer-container {
-    width: 48%;
+    width: 49%;
     display: flex;
     flex: column;
     align-items: center;
     justify-content: space-between;
+    margin-right: 2%;
 }
 
 .timer-box {
@@ -87,6 +90,9 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+
     }
 
     .timer-container {
@@ -94,8 +100,18 @@
     }
 
     .timer-box {
-        width: 250px;
-        height: 130px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .timer-time {
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+    .timer-font {
+        font-weight: 400;
+        font-size: 13px;
     }
 
 }

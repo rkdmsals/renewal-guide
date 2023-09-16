@@ -40,14 +40,21 @@ function EgardenPage() {
                     </div>
                     <img className="EgardenM_pic" 
                         src={imageSrc}
-                        alt="오류" />
+                        alt="img" />
+                </div>
+                <div className="EgardenPage_pictures">
+                    <img className="EgardenPage_pic" 
+                        src="../../../../img/Egarden_pic1.png"
+                        alt="pic1"/>
+                    <img className="EgardenPage_pic" 
+                        src="../../../../img/Egarden_pic2.png"
+                        alt="pic2"/>
+                    <img className="EgardenPage_pic" 
+                        src="../../../../img/Egarden_pic3.png"
+                        alt="pic3"/>
                 </div>
             </div>
-            <div className="EgardenPage_pictures">
-                    <div id="EgardenPage_pic1" className="EgardenPage_pic" />
-                    <div id="EgardenPage_pic2" className="EgardenPage_pic" />
-                    <div id="EgardenPage_pic3" className="EgardenPage_pic" />
-            </div>
+            
 
         </div>
     )
