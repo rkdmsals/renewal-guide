@@ -25,43 +25,22 @@
 
 .EgardenM_pictures {
     display: none;
+    
 }
 
 .EgardenPage_pictures {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
-
 }
 
 .EgardenPage_pic {
-    height: 250px;
+    margin-right: 1%;
+    height: auto;
+    width: 33%;
 
 }
 
-#EgardenPage_pic1 {
-    background-image: url(../../../../public/img/Egarden_pic1.png);
-    width: 328px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#EgardenPage_pic2 {
-    background-image: url(../../../../public/img/Egarden_pic2.png);
-    width: 353px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#EgardenPage_pic3 {
-    background-image: url(../../../../public/img/Egarden_pic3.png);
-    width: 354px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 @media screen and (max-width: 480px) {
 
@@ -76,8 +55,7 @@
     }
 
     .EgardenPage_text {
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding: 13px;
         background-color: rgba(255, 255, 255,0.53);
         border-radius: 10px;
         font-size: 14px;
@@ -92,15 +70,24 @@
     }
 
     .EgardenM_buttons {
-        padding-top: 10px;
+        padding-top: 40px;
         padding-bottom: 10px;
     }
 
     .Eb {
         margin-right: 3px;
-        width: 25px;
-        background-color: rgba(255, 255, 255,0.3);
-        border-radius: 30px;
+        width: 30px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(241, 144, 177, 0.9);
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255,0.53);
+        color: var(--toneDown-black);
+    }
+
+    .Eb:hover {
+        background-color: rgba(238, 107, 151, 0.9);
+        color: antiquewhite;
     }
 
     .EgardenM_pic {
