@@ -78,16 +78,16 @@
         margin-right: 3px;
         width: 30px;
         border-style: solid;
-        border-width: 2px;
-        border-color: rgba(241, 144, 177, 0.9);
         border-radius: 10px;
-        background-color: rgba(255, 255, 255,0.53);
-        color: var(--toneDown-black);
+        border-color: #ffffff;
+        background-color: #ffffff;
+        color: #E3366C;
     }
 
     .Eb:hover {
-        background-color: rgba(238, 107, 151, 0.9);
-        color: antiquewhite;
+        background-color: #EF77A0;
+        border-color: #EF77A0;
+        color: #ffffff;
     }
 
     .EgardenM_pic {
