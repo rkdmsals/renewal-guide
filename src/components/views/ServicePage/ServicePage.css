@@ -44,6 +44,13 @@
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 2%;
     margin-bottom: 3%;
+}
+
+.servicePage_left_content_1:hover,
+.servicePage_left_content_2:hover,
+.servicePage_left_content_3:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
 
