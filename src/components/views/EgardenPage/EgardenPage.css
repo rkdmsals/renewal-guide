@@ -82,11 +82,11 @@
         border-color: #ffffff;
         background-color: #ffffff;
         color: #E3366C;
+        border-width: 2px;
     }
 
     .Eb:hover {
         background-color: #EF77A0;
-        border-color: #EF77A0;
         color: #ffffff;
     }
 
