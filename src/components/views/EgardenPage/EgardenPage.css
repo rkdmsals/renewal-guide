@@ -21,6 +21,9 @@
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
     color: var(--fullPage-text-color);
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .EgardenM_pictures {
@@ -29,7 +32,7 @@
 }
 
 .EgardenPage_pictures {
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
 }
