@@ -102,12 +102,12 @@
 
     .timer-box {
         width: 200px;
-        height: 100px;
+        height: 104px;
     }
 
     .timer-time {
         font-weight: 700;
-        font-size: 60px;
+        font-size: 46px;
     }
 
     .timer-font {
