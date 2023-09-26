@@ -1,0 +1,72 @@
+.ColorPage_Background {
+    width: 75%;
+}
+
+.ColorPage_inner {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.ColorPage_title {
+    font-weight: 650;
+    font-size: var(--fullPage-title-font-size);
+    color: var(--fullPage-text-color);
+}
+
+.ColorPage_text {
+    margin-top: 30px;
+    font-weight: 450;
+    font-size: var(--fullPage-body-font-size);
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    color: var(--fullPage-text-color);
+}
+
+.ColorM_pictures {
+    display: none;
+    
+}
+
+.ColorPage_pictures {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ColorPage_pic {
+    margin-right: 1%;
+    height: auto;
+    width: 33%;
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .ColorPage_title {
+
+        font-size: 43px;
+        font-weight: 600;
+    }
+
+    .ColorPage_text {
+        padding: 13px;
+        background-color: rgba(255, 255, 255,0.53);
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+   .ColorPage_pictures {
+       display: none;
+   }
+
+    .ColorM_pictures {
+        display: block;
+    }
+
+    .ColorM_pic {
+        width: 100%;
+        height: auto;
+    }
+}
