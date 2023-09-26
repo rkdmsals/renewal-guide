@@ -28,15 +28,16 @@ export default class UiPage extends React.Component {
             </div>
           </Slide>
           <Slide>
-            <div className="section-common section-area4">
-              <ServicePage />
-            </div>
-          </Slide>
-          <Slide>
             <div className="section-common section-area5">
               <EgardenPage />
             </div>
           </Slide>
+          <Slide>
+            <div className="section-common section-area4">
+              <ServicePage />
+            </div>
+          </Slide>
+
         </FullPage>
       </div>
     )
