@@ -10,7 +10,7 @@ body {
   background-position: 0px 0px, 77.1vw 0px, 0px 30.2vw;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 .section-area3,
 .section-area4,
 .section-area5 {
-  background-color: white;
+  /* background-color: white; */
 }
 
 .slide-navigation button:nth-child(1) {
@@ -92,11 +92,10 @@ body {
 
   .section-common {
     background-image: url(../../../../public/img/Background/mobile_background.png);
-    background-position: center center;
+    /* background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-
+    background-repeat: no-repeat; */
   }
 
   .slide-navigation {
