@@ -50,7 +50,7 @@
 
     .EgardenPage_title {
 
-        font-size: 43px;
+        font-size: var(--fullPage-mobile-title-font-size);
         font-weight: 600;
     }
 
@@ -58,7 +58,7 @@
         padding: 13px;
         background-color: rgba(255, 255, 255,0.53);
         border-radius: 10px;
-        font-size: 14px;
+        font-size: var(--fullPage-mobile-body-font-size);
     }
 
    .EgardenPage_pictures {
