@@ -3,7 +3,6 @@
 }
 
 .ColorPage_inner {
-    
     display: flex;
     flex-direction: column;
 }
@@ -17,11 +16,11 @@
 
 .ColorPage_text {
     margin-top: 30px;
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: var(--fullPage-body-font-size);
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
-    line-height:25px;
+    line-height: 25px;
     color: var(--fullPage-text-color);
 }
 
@@ -56,15 +55,15 @@
 
     .ColorPage_text {
         padding: 13px;
-        background-color: rgba(255, 255, 255,0.53);
+        background-color: rgba(255, 255, 255, 0.53);
         border-radius: 10px;
         font-size: var(--fullPage-mobile-body-font-size);
     }
 
-   .ColorPage_pictures {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-   }
+    .ColorPage_pictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
 }
