@@ -67,7 +67,7 @@
 }
 
 .servicePage_left_content_body {
-    font-weight: 450;
+    font-weight: 600;
     font-size: var(--fullPage-body-font-size);
     color: var(--fullPage-text-color);
     letter-spacing: 1px;
