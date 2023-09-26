@@ -3,7 +3,7 @@
 }
 
 .EgardenPage_inner {
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -25,7 +25,7 @@
 
 .EgardenM_pictures {
     display: none;
-    
+
 }
 
 .EgardenPage_pictures {
@@ -56,14 +56,14 @@
 
     .EgardenPage_text {
         padding: 13px;
-        background-color: rgba(255, 255, 255,0.53);
+        background-color: rgba(255, 255, 255, 0.53);
         border-radius: 10px;
         font-size: var(--fullPage-mobile-body-font-size);
     }
 
-   .EgardenPage_pictures {
-       display: none;
-   }
+    .EgardenPage_pictures {
+        display: none;
+    }
 
     .EgardenM_pictures {
         display: block;
@@ -81,12 +81,12 @@
         border-radius: 10px;
         border-color: #ffffff;
         background-color: #ffffff;
-        color: #E3366C;
+        color: var(--fullPage-button-color);
         border-width: 2px;
     }
 
     .Eb:hover {
-        background-color: #EF77A0;
+        background-color: var(--fullPage-button-color);
         color: #ffffff;
     }
 
