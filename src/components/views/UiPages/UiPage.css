@@ -44,7 +44,7 @@ body {
   border: 1px solid var(--fullPage-text-color);
   width: 5px;
   height: 15px;
-  margin: 30px 30px;
+  margin: 22px 30px;
   font-size: 0px;
   cursor: pointer;
 }
