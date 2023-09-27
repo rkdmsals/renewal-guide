@@ -14,14 +14,14 @@
 
 .uiInfo_content_container {
   width: 92%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .uiInfo_title {
-  font-size: 70px;
-  font-weight: bold;
-  color: #5B0C2B;
-  padding-top: 143px;
+  font-size: var(--fullPage-title-font-size);
+  font-weight: 650;
+  color: var(--fullPage-text-color);
+  padding-top: 130px;
 }
 
 .uiInfo_button_container {
@@ -39,7 +39,7 @@
 .uiInfo_btn {
   background-color: #FFFFFF;
   border: 0;
-  color: #EE6C98;
+  color: var(--fullPage-button-color);
   font-size: 17px;
   font-weight: 600;
   padding: 0px 8px 0px 8px;
@@ -47,7 +47,7 @@
 }
 
 .uiInfo_btn:hover {
-  background-color: #EE6C98;
+  background-color: var(--fullPage-button-color);
   color: #FFFFFF;
   cursor: pointer;
   transition: 0.3s;
@@ -55,11 +55,11 @@
 
 .unclicked {
   background-color: #FFFFFF;
-  color: #5B0C2B;
+  color: var(--fullPage-text-color);
 }
 
 .clicked {
-  background-color: #EE6C98;
+  background-color: var(--fullPage-button-color);
   color: #FFFFFF;
 
 }
@@ -71,7 +71,7 @@
 @media screen and (max-width: 550px) {
   .uiInfo_title {
     padding-top: 150px;
-    font-size: 45px;
+    font-size: var(--fullPage-mobile-title-font-size);
   }
 
   .uiInfo_button_container {
@@ -89,7 +89,7 @@
 @media screen and (max-width: 480px) {
   .uiInfo_title {
     padding-top: 250px;
-    font-size: 43px;
+    font-size: var(--fullPage-mobile-title-font-size);
   }
 
   .uiInfo_button_container {

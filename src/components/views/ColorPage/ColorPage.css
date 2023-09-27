@@ -3,7 +3,6 @@
 }
 
 .ColorPage_inner {
-
     display: flex;
     flex-direction: column;
 }
@@ -12,14 +11,16 @@
     font-weight: 650;
     font-size: var(--fullPage-title-font-size);
     color: var(--fullPage-text-color);
+    padding-bottom: 30px;
 }
 
 .ColorPage_text {
     margin-top: 30px;
-    font-weight: 450;
+    font-weight: 600;
     font-size: var(--fullPage-body-font-size);
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
+    line-height: 25px;
     color: var(--fullPage-text-color);
 }
 
@@ -29,16 +30,19 @@
 }
 
 .ColorPage_pictures {
-    padding-top: 80px;
+    padding-top: 90px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 20%;
+
 }
 
-.ColorPage_pic {
-    margin-right: 1%;
+.Color_logo {
+    width: 286px;
     height: auto;
-    width: 33%;
-
+    margin-bottom: 50px;
 }
 
 
@@ -47,6 +51,7 @@
     .ColorPage_title {
         font-size: var(--fullPage-mobile-480-title-font-size);
         font-weight: 600;
+        padding-bottom: 0px;
     }
 
     .ColorPage_text {
@@ -73,7 +78,6 @@
 }
 
 @media screen and (max-width: 280px) {
-
     .ColorPage_title {
         font-size: var(--fullPage-mobile-480-title-font-size);
     }

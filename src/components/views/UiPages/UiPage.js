@@ -5,6 +5,7 @@ import EgardenPage from "../EgardenPage/EgardenPage";
 import ServicePage from "../ServicePage/ServicePage";
 import UiInfo from "./UiInfo";
 import Home from "../HomePage/Home";
+import ColorPage from "../ColorPage/ColorPage";
 
 export default class UiPage extends React.Component {
   render() {
@@ -18,12 +19,12 @@ export default class UiPage extends React.Component {
           </Slide>
           <Slide>
             <div className="section-common section-area2">
-              <UiInfo />
+              <ColorPage />
             </div>
           </Slide>
           <Slide>
             <div className="section-common section-area3">
-              <ServicePage />
+              <UiInfo />
             </div>
           </Slide>
           <Slide>
@@ -31,6 +32,12 @@ export default class UiPage extends React.Component {
               <EgardenPage />
             </div>
           </Slide>
+          <Slide>
+            <div className="section-common section-area5">
+              <ServicePage />
+            </div>
+          </Slide>
+
         </FullPage>
       </div>
     )

@@ -21,6 +21,9 @@
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
     color: var(--fullPage-text-color);
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .EgardenM_pictures {
@@ -29,7 +32,7 @@
 }
 
 .EgardenPage_pictures {
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
 }
@@ -49,7 +52,6 @@
     }
 
     .EgardenPage_title {
-
         font-size: var(--fullPage-mobile-480-title-font-size);
         font-weight: 600;
     }
@@ -81,12 +83,12 @@
         border-radius: 10px;
         border-color: #ffffff;
         background-color: #ffffff;
-        color: #E3366C;
+        color: var(--fullPage-button-color);
         border-width: 2px;
     }
 
     .Eb:hover {
-        background-color: #EF77A0;
+        background-color: var(--fullPage-button-color);
         color: #ffffff;
     }
 

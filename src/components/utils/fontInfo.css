@@ -1,5 +1,21 @@
+@font-face {
+    font-family: "pretendard-Regular";
+    src: url("./PretendardVariable.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* * {
+    font-family: "Pretendard Variable", Pretendard, -apple-system,
+        BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+        "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    word-break: keep-all;
+} */
+
 :root {
-    --fullPage-text-color: #5B0C2B;
+    --fullPage-text-color: #002F1C;
+    --fullPage-button-color: #397D57;
     --fullPage-title-font-size: 55px;
     --fullPage-body-font-size: 16px;
     --fullPage-mobile-480-title-font-size: 40px;
