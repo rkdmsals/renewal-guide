@@ -3,7 +3,7 @@
 }
 
 .EgardenPage_inner {
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -25,7 +25,7 @@
 
 .EgardenM_pictures {
     display: none;
-    
+
 }
 
 .EgardenPage_pictures {
@@ -50,20 +50,20 @@
 
     .EgardenPage_title {
 
-        font-size: 43px;
+        font-size: var(--fullPage-mobile-480-title-font-size);
         font-weight: 600;
     }
 
     .EgardenPage_text {
         padding: 13px;
-        background-color: rgba(255, 255, 255,0.53);
+        background-color: rgba(255, 255, 255, 0.53);
         border-radius: 10px;
-        font-size: 14px;
+        font-size: var(--fullPage-mobile-480-body-font-size);
     }
 
-   .EgardenPage_pictures {
-       display: none;
-   }
+    .EgardenPage_pictures {
+        display: none;
+    }
 
     .EgardenM_pictures {
         display: block;
@@ -93,5 +93,15 @@
     .EgardenM_pic {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .EgardenPage_title {
+        font-size: var(--fullPage-mobile-280-title-font-size);
+    }
+
+    .EgardenPage_text {
+        font-size: var(--fullPage-mobile-280-body-font-size);
     }
 }

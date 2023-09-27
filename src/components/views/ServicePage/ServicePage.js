@@ -46,7 +46,7 @@ function ServicePage() {
                         </div>
                         <div className="servicePage_left_content_3" onClick={handleDiv3Click}>
                             <div className="servicePage_left_content_title">
-                                메인 화면에서 글 확인하기
+                                메인화면에서 글 확인하기
                             </div>
                             <div className="servicePage_left_content_body">
                                 이제 메인화면에서 라이프/이벤트/공지사항/컨텐츠 카테고리의 글들은 만나보실 수 있습니다.
