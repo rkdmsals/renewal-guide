@@ -76,6 +76,7 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: 0px;
+        margin-bottom: 0px;
     }
 
     .Home_comingsoon {
@@ -90,7 +91,7 @@
     .timer {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        margin-top:0px;
         align-items: flex-start;
         justify-content: flex-start;
 
@@ -98,11 +99,13 @@
 
     .timer-container {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .timer-box {
         width: 200px;
         height: 104px;
+        margin-right: 10px;
     }
 
     .timer-time {
