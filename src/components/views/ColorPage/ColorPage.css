@@ -24,6 +24,10 @@
     color: var(--fullPage-text-color);
 }
 
+.ColorM_pictures {
+    display: none;
+
+}
 
 .ColorPage_pictures {
     padding-top: 90px;
@@ -32,7 +36,6 @@
     justify-content: flex-end;
     margin-left: auto;
     margin-right: 20%;
-
 
 }
 
@@ -43,12 +46,10 @@
 }
 
 
-
 @media screen and (max-width: 480px) {
 
     .ColorPage_title {
-
-        font-size: var(--fullPage-mobile-title-font-size);
+        font-size: var(--fullPage-mobile-480-title-font-size);
         font-weight: 600;
         padding-bottom: 0px;
     }
@@ -57,13 +58,31 @@
         padding: 13px;
         background-color: rgba(255, 255, 255, 0.53);
         border-radius: 10px;
-        font-size: var(--fullPage-mobile-body-font-size);
+        font-size: var(--fullPage-mobile-480-body-font-size);
     }
 
     .ColorPage_pictures {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: none;
     }
 
+    .ColorM_pictures {
+        display: block;
+    }
+
+    .ColorM_pic {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 280px) {
+    .ColorPage_title {
+        font-size: var(--fullPage-mobile-480-title-font-size);
+    }
+
+    .ColorPage_text {
+        font-size: var(--fullPage-mobile-480-body-font-size);
+    }
 }

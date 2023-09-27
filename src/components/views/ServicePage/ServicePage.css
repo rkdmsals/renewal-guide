@@ -100,7 +100,7 @@
     }
 
     .servicePage_left_title {
-        font-size: var(--fullPage-mobile-title-font-size);
+        font-size: var(--fullPage-mobile-480-title-font-size);
         padding-bottom: 5%;
     }
 
@@ -109,7 +109,7 @@
     }
 
     .servicePage_left_content_body {
-        font-size: var(--fullPage-mobile-body-font-size);
+        font-size: var(--fullPage-mobile-480-body-font-size);
     }
 
     .servicePage_left_content_1,
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 280px) {
     .servicePage_left_title {
-        font-size: 26px;
+        font-size: var(--fullPage-mobile-280-title-font-size);
         padding-bottom: 5%;
     }
 
@@ -132,7 +132,7 @@
     }
 
     .servicePage_left_content_body {
-        font-size: 12px;
+        font-size: var(--fullPage-mobile-280-body-font-size)
     }
 
 
