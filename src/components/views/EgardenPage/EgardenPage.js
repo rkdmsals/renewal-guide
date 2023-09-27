@@ -27,9 +27,9 @@ function EgardenPage() {
                         <span className="Egarden_hidden">편리해진 </span>E-화원
                     </div>
                     <div className="EgardenPage_text">
-                        전공, 취미, 시험 등등 관심 분야에 따라 E-화원을 자유롭게 생성하고 가입할 수 있습니다. <br />
-                        자신이 가입한 E-화원들은 이화이언 메인 페이지에서도 바로 확인하실 수 있습니다. <br />
-                        벗들과 함께 원하는 주제에 대해 자유롭게 소통할 수 있는 E-화원, 기대해주세요!
+                        관심 분야에 따라 E-화원을 자유롭게 생성하고 가입할 수 있습니다. <br />
+                        또한, 메인 페이지에서 자신이 가입한 E-화원들을 바로 볼 수 있습니다. <br />
+                        벗들과 함께 원하는 주제에 대해 소통할 수 있는 E-화원, 기대해주세요!
                     </div>
                 </div>
                 <div className="EgardenM_pictures">
