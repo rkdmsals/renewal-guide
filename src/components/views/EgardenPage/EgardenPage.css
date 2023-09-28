@@ -28,20 +28,26 @@
 
 .EgardenM_pictures {
     display: none;
+}
 
+.EgardenM_pic {
+    border-radius: 15px;
+    box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .EgardenPage_pictures {
     padding-top: 40px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .EgardenPage_pic {
     margin-right: 1%;
     height: auto;
-    width: 33%;
-
+    width: 32%;
+    border-radius: 15px;
+    box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -95,6 +101,7 @@
     .EgardenM_pic {
         width: 100%;
         height: auto;
+        border-radius: 15px;
     }
 }
 

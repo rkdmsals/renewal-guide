@@ -71,7 +71,7 @@
 @media screen and (max-width: 550px) {
   .uiInfo_title {
     padding-top: 150px;
-    font-size: var(--fullPage-mobile-title-font-size);
+    font-size: var(--fullPage-mobile-480-title-font-size);
   }
 
   .uiInfo_button_container {
@@ -89,7 +89,7 @@
 @media screen and (max-width: 480px) {
   .uiInfo_title {
     padding-top: 250px;
-    font-size: var(--fullPage-mobile-title-font-size);
+    font-size: var(--fullPage-mobile-480-title-font-size);
   }
 
   .uiInfo_button_container {
