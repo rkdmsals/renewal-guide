@@ -51,7 +51,7 @@
 .servicePage_left_content_3:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.8);
-
+    transform: scale(1.02);
 }
 
 .servicePage_left_content_title {
