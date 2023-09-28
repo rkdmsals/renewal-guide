@@ -17,11 +17,11 @@ export default class UiPage extends React.Component {
               <Home />
             </div>
           </Slide>
-          <Slide>
+          {/* <Slide>
             <div className="section-common section-area2">
               <ColorPage />
             </div>
-          </Slide>
+          </Slide> */}
           <Slide>
             <div className="section-common section-area3">
               <UiInfo />
