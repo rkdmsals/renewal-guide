@@ -77,14 +77,27 @@
 }
 
 .servicePage_right_container {
-    width: 35%;
+    width: 25%;
     height: auto;
     display: flex;
 }
 
 .servicePage_right_container {
+    width: 30%;
     justify-content: center;
     align-items: center;
+}
+
+.servicePage_mobile_img_wrapper {
+    perspective: 400px;
+}
+
+.servicePage_mobile_img {
+    width: 100%;
+    padding-top: 140px;
+
+    /* transform: rotateY(-9deg); */
+
 }
 
 @media screen and (max-width: 480px) {

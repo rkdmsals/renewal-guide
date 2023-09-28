@@ -3,16 +3,16 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 function ServicePage() {
-    const [currentImage, SetCurrentImage] = useState("/img/phone.png");
+    const [currentImage, SetCurrentImage] = useState("/img/calculator.png");
 
     const handleDiv1Click = (e) => {
-        SetCurrentImage('/img/phone.png')
+        SetCurrentImage('/img/calculator.png')
     };
     const handleDiv2Click = (e) => {
-        SetCurrentImage('/img/phone.png')
+        SetCurrentImage('/img/alba_tag.png')
     };
     const handleDiv3Click = (e) => {
-        SetCurrentImage('/img/phone.png')
+        SetCurrentImage('/img/main_contents.png')
     };
 
     return (
@@ -57,7 +57,7 @@ function ServicePage() {
                 </div>
                 <div className="servicePage_right_container mobile-only">
                     <div className="servicePage_mobile_img_wrapper">
-                        <img src={currentImage} alt="이미지" />
+                        <img className="servicePage_mobile_img" src={currentImage} alt="이미지" />
                     </div>
 
                 </div>
