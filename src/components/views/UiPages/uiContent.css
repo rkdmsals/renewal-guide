@@ -54,21 +54,21 @@
 
 #comment_before {
   background-image: url(../../../../public/img/comment_after.png);
-
+  height: 70px;
 }
 
 #comment_after {
-  background-image: url(../../../../public/img/comment_after.png);
-
+  background-image: url(../../../../public/img/comment_after2.png);
+  height: 70px;
 }
 
 #board_before {
-  background-image: url(../../../../public/img/board_after.png);
+  background-image: url(../../../../public/img/board_after.jpg);
 
 }
 
 #board_after {
-  background-image: url(../../../../public/img/board_after2.png);
+  background-image: url(../../../../public/img/board_after2.jpg);
 
 }
 
@@ -78,7 +78,7 @@
 }
 
 #sidebar_after {
-  background-image: url(../../../../public/img/sidebar_after.jpeg);
+  background-image: url(../../../../public/img/sidebar_after.png);
 
 }
 
@@ -86,6 +86,7 @@
   .img_wrap {
     display: block;
   }
+
   .ui_image {
     float: none;
     margin: 0;
