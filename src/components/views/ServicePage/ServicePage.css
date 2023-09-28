@@ -77,16 +77,13 @@
 }
 
 .servicePage_right_container {
-    width: 25%;
+    width: 30%;
     height: auto;
     display: flex;
-}
-
-.servicePage_right_container {
-    width: 30%;
     justify-content: center;
     align-items: center;
 }
+
 
 .servicePage_mobile_img_wrapper {
     perspective: 400px;
@@ -104,7 +101,6 @@
 
     .mobile-only {
         display: none;
-        /* 모바일 화면에서 해당 div를 숨깁니다. */
     }
 
     .servicePage_left_container {
@@ -137,6 +133,7 @@
     .servicePage_left_content_3 {
         padding: 2px;
     }
+
 }
 
 @media screen and (max-width: 280px) {
