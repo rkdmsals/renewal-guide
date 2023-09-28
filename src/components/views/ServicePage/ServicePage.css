@@ -132,6 +132,11 @@
         margin-bottom: 3%;
     }
 
+    .servicePage_left_content_1,
+    .servicePage_left_content_2,
+    .servicePage_left_content_3 {
+        padding: 2px;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -141,12 +146,11 @@
     }
 
     .servicePage_left_content_title {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .servicePage_left_content_body {
-        font-size: var(--fullPage-mobile-280-body-font-size)
+        font-size: var(--fullPage-mobile-280-body-font-size);
     }
-
 
 }
