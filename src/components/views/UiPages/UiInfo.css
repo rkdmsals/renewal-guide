@@ -105,9 +105,13 @@
 
 @media screen and (max-width: 420px) {
   .uiInfo_title {
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
+  .uiInfo_btn {
+    font-size: 13px;
+    padding: 0px 12px;
+  }
 }
 
 @media screen and (max-width: 376px) {

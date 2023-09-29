@@ -12,10 +12,10 @@ function Comment() {
       </div>
       <div className="img_wrap">
         <div className="ui_image">
-          <div id="comment_before" className="pic"><div className="img_text">Before</div></div>
+          <div id="comment_before" className="pic"><div className="img_text">글쓴벗 확인</div></div>
         </div>
         <div className="ui_image">
-          <div id="comment_after" className="pic"><div className="img_text">After</div></div>
+          <div id="comment_after" className="pic"><div className="img_text">답글 작성</div></div>
         </div>
       </div>
     </div>
