@@ -12,8 +12,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateZ(0);
-  /* will-change: transform; */
+  z-index: -1;
 }
 
 .section-common {
@@ -30,7 +29,7 @@ body {
   /* font-size: 36px; */
   /* background-attachment: fixed !important; */
   overflow: hidden;
-  transform: translateZ(1px);
+  z-index: 1;
 }
 
 .section-area1,
@@ -72,7 +71,7 @@ body {
   height: 50%;
   float: right;
   margin: 15% 0px 0px 90%;
-  transform: translateZ(1px);
+  z-index: 3;
 }
 
 
@@ -108,7 +107,7 @@ body {
   }
 
   .section-common {
-
+    height: 100vh;
     /* background-attachment: fixed; */
     /* position: fixed;
     background-size: cover;
@@ -127,6 +126,7 @@ body {
     height: 10%;
     float: right;
     margin: 0%;
+    z-index: 3;
   }
 
   .slide-navigation button {
@@ -136,7 +136,6 @@ body {
     margin: 30px 30px;
     width: 5px;
     height: 5px;
-
   }
 
 
