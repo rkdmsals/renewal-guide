@@ -92,10 +92,10 @@ body {
 
   .section-common {
     background-image: url(../../../../public/img/Background/mobile_background.png);
-    /* background-position: center center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
   }
 
   .slide-navigation {
