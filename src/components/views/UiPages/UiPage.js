@@ -11,6 +11,7 @@ export default class UiPage extends React.Component {
   render() {
     return (
       <div className="background">
+        <div className="UiPageBackground"></div>
         <FullPage controls controlsProps={{ className: "slide-navigation" }}>
           <Slide>
             <div className="section-common section-area1">
