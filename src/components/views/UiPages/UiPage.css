@@ -132,7 +132,7 @@ body {
   .slide-navigation button {
     border-radius: 10px;
     padding: 5px;
-    border: 1px solid #5B0C2B;
+    border: 1px solid var(--fullPage-text-color);
     margin: 30px 30px;
     width: 5px;
     height: 5px;

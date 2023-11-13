@@ -10,7 +10,7 @@ function Home() {
     let Interval = useRef();
 
     const StartTimer = () => {
-        const countdownDate = new Date('October 18 , 2023 00:00:00').getTime();
+        const countdownDate = new Date('November 20 , 2023 00:00:00').getTime();
 
         Interval = setInterval(() => {
             const now = new Date().getTime();
