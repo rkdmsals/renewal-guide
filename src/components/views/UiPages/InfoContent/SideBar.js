@@ -5,8 +5,8 @@ function SideBar() {
     <div className="ui_content_container">
       <div className="ui_content_wrap">
         <div className="ui_content_label">
-          기존에 답답했던 사이드바를 없애 이화이언이 더욱 깔끔해졌습니다.<br />
-          또한 로그인 여부와 레벨을 바로 확인할 수 있어 가독성은 높이고 편리하게 이용할 수 있어요!
+          - 모바일에서 개선된 검색 UI를 만나보세요!<br />
+          - 상단의 검색바를 통해 이전보다 더욱 쉽게 게시글을 검색할 수 있습니다.
 
         </div>
       </div>

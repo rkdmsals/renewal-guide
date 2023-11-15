@@ -5,8 +5,8 @@ function BoardWrite() {
     <div className="ui_content_container">
       <div className="ui_content_wrap">
         <div className="ui_content_label">
-          새로워진 게시글 작성 방법으로 알바하자, 벼룩시장 등의 게시판에서 더 쉽게 원하는 글을 찾을 수 있게 되었습니다! <br />
-          근무지역, 모집 기간 등의 상세정보를 간편하게 작성하고, 내가 원하는 알바,상품 등을 더욱 빠르게 찾아보세요.
+          - 구매/판매 등  분류 태그를 통해 더욱 쉽게 원하는 글을 찾을 수 있게 되었습니다! <br />
+          - 앨범 탭, 썸네일 탭을 통해 게시글의 정보를 빠르게 확인해보세요.
 
         </div>
       </div>

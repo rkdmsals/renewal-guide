@@ -28,7 +28,7 @@ function ServicePage() {
                                 평점 계산기
                             </div>
                             <div className="servicePage_left_content_body">
-                                전체 평점기 기능이 새롭게 추가되었습니다.
+                                평점 계산기 기능이 새롭게 추가되었습니다.
                                 <br />
                                 4.5 평점 변환 기능도 함께 제공되어
                                 <br />
@@ -37,11 +37,11 @@ function ServicePage() {
                         </div>
                         <div className="servicePage_left_content_2" onClick={handleDiv2Click}>
                             <div className="servicePage_left_content_title">
-                                구인/구직 태그
+                                함께해요
                             </div>
                             <div className="servicePage_left_content_body">
-                                알바하자 게시판에 구인/구직 카테고리가 추가되어
-                                알바 구인 및 구직 정보를 쉽게 확인하고 공유할 수 있게 되었습니다.
+                                스터디룸의 이름이 '함께해요'로 새롭게 변경되었습니다. 
+                                스터디를 넘어 대외활동, 소모임 등에 벗들을 모아 함께해보세요!
                             </div>
                         </div>
                         <div className="servicePage_left_content_3" onClick={handleDiv3Click}>
@@ -49,18 +49,13 @@ function ServicePage() {
                                 메인화면에서 글 확인하기
                             </div>
                             <div className="servicePage_left_content_body">
-                                이제 메인화면에서 라이프/이벤트/공지사항/컨텐츠 카테고리의 글들은 만나보실 수 있습니다.
-                                로그인 시에는 화원과 E-화원의 글까지 메인화면에서 확인하실 수 있습니다.
+                                이제 메인화면에서 모든 카테고리의 글들을 만나보실 수 있습니다.
+                                이화인 인증의 회원의 경우, 화원과 E-화원의 글까지 확인하실 수 있습니다.
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="servicePage_right_container mobile-only">
-                    <div className="servicePage_mobile_img_wrapper">
-                        <img className="servicePage_mobile_img" src={currentImage} alt="이미지" />
-                    </div>
-
-                </div>
+                
             </div>
         </div>
     );

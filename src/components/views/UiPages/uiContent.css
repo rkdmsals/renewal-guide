@@ -97,6 +97,10 @@
   }
 
   .ui_content_label {
+    line-height: 20px;
+  }
+
+  .ui_content_label {
     font-size: 15px;
   }
 
@@ -116,6 +120,10 @@
     margin: 10px 0px 0px 10px;
   }
 
+  .ui_content_label {
+    line-height: 20px;
+  }
+
   .side_wrap {
     flex-direction: row;
   }
@@ -133,9 +141,15 @@
 @media screen and (max-width: 375px) {
 
   .ui_content_label {
-    font-size: 11px;
-    line-height: 13px;
+    font-size: 12px;
+    line-height: 18px;
     margin: 14px 6px 0px 16px;
+  }
+  .ui_content_wrap{
+    margin-bottom: 15px;
+  }
+  .ui_image{
+    margin-bottom: 10px;
   }
 }
 
