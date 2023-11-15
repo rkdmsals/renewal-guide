@@ -47,14 +47,15 @@
     margin-bottom: 3%;
 }
 
+/*
 .servicePage_left_content_1:hover,
 .servicePage_left_content_2:hover,
 .servicePage_left_content_3:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.9);
-    transform: scale(1.02);
+     transform: scale(1.02); 
 }
-
+*/
 .servicePage_left_content_title {
     display: flex;
     flex-direction: column;
