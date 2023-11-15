@@ -8,21 +8,23 @@
 }
 
 .EgardenPage_title {
-    font-weight: 650;
+    font-weight: 800;
     font-size: var(--fullPage-title-font-size);
     color: var(--fullPage-text-color);
 }
 
 .EgardenPage_text {
     margin-top: 30px;
-    font-weight: 450;
+    font-weight: 600;
     font-size: var(--fullPage-body-font-size);
     /* letter-spacing: 1.5px; */
     /* word-spacing: 1.5; */
     color: var(--fullPage-text-color);
-    padding: 10px;
-    font-weight: bold;
-    line-height: 27px;
+    padding: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 .EgardenM_pictures {
@@ -58,7 +60,7 @@
 
     .EgardenPage_title {
         font-size: var(--fullPage-mobile-480-title-font-size);
-        font-weight: 600;
+        font-weight: 800;
     }
 
     .EgardenPage_text {
@@ -66,6 +68,7 @@
         background-color: rgba(255, 255, 255, 0.53);
         border-radius: 10px;
         font-size: var(--fullPage-mobile-480-body-font-size);
+        line-height: 24px;
     }
 
     .EgardenPage_pictures {

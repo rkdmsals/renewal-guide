@@ -55,7 +55,7 @@ function UiInfo() {
                 onClick={handleClickButton}
                 name="boardwrite"
               >
-                글 작성 UI
+                일반 게시판 UI
               </button>
               <button
                 className={`teamInfo_sidebar_btn uiInfo_btn ${
@@ -64,7 +64,7 @@ function UiInfo() {
                 onClick={handleClickButton}
                 name="sidebar"
               >
-                사이드바 UI
+                검색 UI
               </button>
             </div>
             </div>

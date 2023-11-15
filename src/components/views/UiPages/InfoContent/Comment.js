@@ -5,8 +5,8 @@ function Comment() {
     <div className="ui_content_container">
       <div className="ui_content_wrap">
         <div className="ui_content_label">
-          새롭게 개편된 UI로 댓글과 답글 작성이 더욱 편리해졌습니다.<br />
-          다양한 의견을 자유롭게 나누고 공감 버튼으로 공감을 표현해보세요.
+          - 새롭게 개편된 UI로 댓글과 답글 작성이 더욱 편리해졌습니다.<br />
+          - 다양한 의견을 자유롭게 나누고 공감 버튼으로 공감을 표현해보세요.
 
         </div>
       </div>
